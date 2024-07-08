@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505745256610",
+    "project_id": "quizpulse-8e2b6",
+    "storage_bucket": "quizpulse-8e2b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505745256610:android:96d0e6605d94e30cc627fb",
+        "android_client_info": {
+          "package_name": "com.example.quizpulse3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhjewaQu-ph1Sgdo9bITS8qSSMT4QpeSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
