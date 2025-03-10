@@ -40,7 +40,7 @@
         android:fontFamily="@font/baloo_chettan"
         android:text="Play"
         android:textSize="26dp"
-        android:backgroundTint="#E6CB08"
+        android:backgroundTint="#E5CA08"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,15 +52,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:fontFamily="@font/baloo_chettan"
-        android:text="Developed By TechNexus"
-        android:textColor="#AEFFA500"
+        android:text="Developed By Gaurav"
+        android:textColor="#AE000000"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.939"
         tools:ignore="TextSizeCheck" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

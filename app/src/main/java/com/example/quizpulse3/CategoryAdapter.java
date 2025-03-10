@@ -1,6 +1,7 @@
 package com.example.quizpulse3;
 
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,7 +55,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     // ViewHolder represents each item in the RecyclerView.
     class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
-        private TextView title;
+        private final TextView title;
 
         // Constructor for ViewHolder, initializes views.
         public ViewHolder(@NonNull View itemView) {
@@ -67,6 +68,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         private void setData(String url, final String title,final int sets) {
             // Use Glide library to load the image from the URL into the ImageView.
             Glide.with(itemView.getContext()).load(url).into(imageView);
+            Log.d("CategoryAdapter", "Setting Data: Title = " + title + ", Sets = " + sets);
 
             // Set the title text for the TextView.
             this.title.setText(title);

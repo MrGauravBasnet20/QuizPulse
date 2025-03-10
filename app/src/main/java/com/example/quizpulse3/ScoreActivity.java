@@ -42,7 +42,7 @@ public class ScoreActivity extends AppCompatActivity {
         } else if (scoredmarks >= totalmarks * 0.7) {
             celebration.setText("Great effort! Keep it up! 👍");
         } else {
-            celebration.setText("Good try!  💪");
+            celebration.setText("Good try!💪");
         }
 
         // Add animation to the celebration text

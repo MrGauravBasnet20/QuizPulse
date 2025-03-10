@@ -36,7 +36,7 @@
             android:text="Score:"
             android:fontFamily="@font/baloo_chettan"
             android:textAlignment="center"
-            android:textColor="#fff"
+            android:textColor="#FFFFFF"
             android:textSize="38sp"
        />
 
@@ -76,22 +76,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@drawable/round"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="👈Categories"
         android:textSize="25sp"
         android:fontFamily="@font/baloo_chettan"
-        android:textColor="#fff" />
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/celebration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="40sp"
-        android:textColor="#000"
-        android:fontFamily="@font/baloo_chettan"
         android:layout_margin="30dp"
-        />
+        android:fontFamily="@font/baloo_chettan"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="40sp" />
 
 </LinearLayout>
 </LinearLayout>
